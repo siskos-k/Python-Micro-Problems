@@ -1,0 +1,13 @@
+class PinkImp : Imp
+{
+    States
+    {
+    Spawn:
+        TNT1 A 0 A_ChangeFlag("COUNTITEM", true) // Make it drop an item on death
+        TROO ABCDEFG 4
+        Loop;
+    See:
+        TROO A 8 A_Chase
+        Loop;
+    }
+}
