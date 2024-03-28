@@ -1,0 +1,84 @@
+{
+  "rappers": [
+    {
+      "name": "Eminem",
+      "albums": 11
+    },
+    {
+      "name": "Logic",
+      "albums": 6
+    },
+    {
+      "name": "Drake",
+      "albums": 9
+    },
+    {
+      "name": "Kendrick Lamar",
+      "albums": 4
+    },
+    {
+      "name": "Snoop Dogg",
+      "albums": 21
+    },
+    {
+      "name": "Lil Wayne",
+      "albums": 13
+    },
+    {
+      "name": "J. Cole",
+      "albums": 6
+    },
+    {
+      "name": "Kanye West",
+      "albums": 9
+    },
+    {
+      "name": "Jay-Z",
+      "albums": 13
+    },
+    {
+      "name": "Wiz Khalifa",
+      "albums": 7
+    },
+    {
+      "name": "Cardi B",
+      "albums": 2
+    },
+    {
+      "name": "Childish Gambino",
+      "albums": 4
+    },
+    {
+      "name": "Future",
+      "albums": 7
+    },
+    {
+      "name": "Travis Scott",
+      "albums": 5
+    },
+    {
+      "name": "Nicki Minaj",
+      "albums": 5
+    },
+    {
+      "name": "Post Malone",
+      "albums": 3
+    },
+    {
+      "name": "21 Savage",
+      "albums": 3
+    },
+    {
+      "name": "Young Thug",
+      "albums": 4
+    },
+    {
+      "name": "Lil Baby",
+      "albums": 3
+    },
+    {
+      "name": "A$AP Rocky",
+      "albums": 3
+    }
+  ]
+}
