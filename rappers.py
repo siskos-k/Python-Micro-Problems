@@ -7,8 +7,11 @@ with open('rappers.json', 'r') as f:
 
 rappers = data['rappers']
 
-def select_random_rapper():
-    return random.choice(rappers)
+def select_random_rapper(current_rapper=None):
+    while True:
+        rapper = random.choice(rappers)
+        if rapper != current_rapper:
+            return rapper
 
 def compare_rappers(rapper1, rapper2):
     print(f"Who is better: {rapper1['name']} or {rapper2['name']}?")
@@ -21,8 +24,8 @@ def compare_rappers(rapper1, rapper2):
 def main():
     selected_rapper = None
     for round_ in range(3):
-        rapper1 = select_random_rapper()
-        rapper2 = select_random_rapper()
+        rapper1 = select_random_rapper(selected_rapper)
+        rapper2 = select_random_rapper(selected_rapper)
 
         if selected_rapper is None:
             winner = compare_rappers(rapper1, rapper2)
@@ -32,6 +35,5 @@ def main():
             selected_rapper = selected_rapper if winner else rapper2
 
     print(f"The winner is {selected_rapper['name']}!")
-
 if __name__ == '__main__':
     main()
