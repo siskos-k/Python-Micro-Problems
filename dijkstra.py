@@ -34,11 +34,11 @@ graph.add_node('A')
 graph.add_node('B')
 graph.add_node('C')
 graph.add_node('D')
-graph.add_edge('A', 'B', 1)
-graph.add_edge('A', 'C', 4)
-graph.add_edge('B', 'C', 2)
+graph.add_edge('A', 'B', 6)
+graph.add_edge('A', 'C', 2)
+graph.add_edge('B', 'C', 3)
 graph.add_edge('B', 'D', 5)
-graph.add_edge('C', 'D', 1)
+graph.add_edge('C', 'D', 4)
 
 start_node = 'A'
 end_node = 'D'
