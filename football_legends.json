@@ -1,0 +1,14 @@
+{
+  "players": [
+    { "name": "Pele" },
+    { "name": "Diego Maradona" },
+    { "name": "Lionel Messi" },
+    { "name": "Cristiano Ronaldo" },
+    { "name": "Johan Cruyff" },
+    { "name": "Franz Beckenbauer" },
+    { "name": "Zinedine Zidane" },
+    { "name": "Ronaldo Nazario" },
+    { "name": "Gerd Muller" },
+    { "name": "Alfredo Di Stefano" }
+  ]
+}
