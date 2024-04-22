@@ -1,0 +1,127 @@
+/* General resets */
+body,
+h1,
+input,
+button,
+a {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+}
+
+/* Refined Styling */
+body {
+    background-color: #f8f9fa; /* Subtle Background */
+    color: #212529; /* Darker text for contrast */
+    line-height: 1.6; /* More relaxed line spacing */
+    padding: 20px;
+    box-sizing: border-box; /* Keep padding from breaking layouts */
+}
+
+/* Header and navigation styling */
+.header {
+    background-color: #38a169; /* A more vibrant green */
+    color: white;
+    padding: 15px 0; /* Adjusted padding */
+    position: sticky; /* Header stays on screen */
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around; /* Even spacing */
+    align-items: center; /* Vertically centered links */
+    list-style: none;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #2c7a50; /* Darker green on hover */
+}
+
+/* Container and content styling */
+.container {
+    max-width: 800px; /* Increased width */
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white; /* White background for content */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #38a169; /* Match header */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px; /* Softened corners */
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #38a169;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2c7a50;
+}
+
+/* Footer (Example addition) */
+footer {
+    background-color: #343a40;
+    color: #868e96;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Subtle 'bounce' for navigation buttons on hover */
+.nav-button:hover {
+    background-color: #2c7a50;
+    animation: buttonBounce 0.5s ease;
+}
+
+@keyframes buttonBounce {
+    20% {
+        transform: translateY(-3px);
+    }
+    40% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

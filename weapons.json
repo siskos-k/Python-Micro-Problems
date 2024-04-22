@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Sword",
+    "description": "A sharp, metal blade used for slashing and cutting.",
+    "age": "1000-1500 CE"
+  },
+  {
+    "name": "Battle Axe",
+    "description": "A heavy, two-handed axe used for chopping and cleaving.",
+    "age": "900-1400 CE"
+  },
+  {
+    "name": "Mace",
+    "description": "A blunt, heavy club used for bludgeoning and crushing.",
+    "age": "800-1300 CE"
+  },
+  {
+    "name": "Dagger",
+    "description": "A small, sharp blade used for stabbing and cutting.",
+    "age": "1000-1600 CE"
+  },
+  {
+    "name": "Longbow",
+    "description": "A powerful bow used for ranged combat.",
+    "age": "1000-1500 CE"
+  },
+  {
+    "name": "Crossbow",
+    "description": "A mechanical bow used for firing arrows.",
+    "age": "1200-1600 CE"
+  },
+  {
+    "name": "Warhammer",
+    "description": "A heavy, two-handed hammer used for crushing and smashing.",
+    "age": "900-1400 CE"
+  },
+  {
+    "name": "Spear",
+    "description": "A long, pointed polearm used for thrusting and impaling.",
+    "age": "800-1600 CE"
+  },
+  {
+    "name": "Halberd",
+    "description": "A combination of axe, spear, and hook used for defense and attacking.",
+    "age": "1200-1500 CE"
+  },
+  {
+    "name": "Flail",
+    "description": "A heavy weapon consisting of a chain with a weighted ball at the end.",
+    "age": "1100-1600 CE"
+  },
+  {
+    "name": "Pike",
+    "description": "A long, sharp spear used for attacking from horseback.",
+    "age": "1000-1600 CE"
+  },
+  {
+    "name": "Shield",
+    "description": "A protective covering used to deflect attacks.",
+    "age": "800-1600 CE"
+  },
+  {
+    "name": "Armor",
+    "description": "A protective suit of metal or leather used to defend against enemy attacks.",
+    "age": "800-1600 CE"
+  },
+  {
+    "name": "Helmet",
+    "description": "A protective head covering to deflect blows and arrows.",
+    "age": "800-1600 CE"
+  },
+  {
+    "name": "Javelin",
+    "description": "A throwing weapon consisting of a long, sharp spearhead on a shaft.",
+    "age": "800-1600 CE"
+  },
+  {
+    "name": "Sling",
+    "description": "A simple weapon used for throwing stones or small objects.",
+    "age": "800-1600 CE"
+  },
+  {
+    "name": "Whip",
+    "description": "A long, flexible leather or rope used for striking and entangling enemies.",
+    "age": "800-1600 CE"
+  },
+  {
+    "name": "Trebuchet",
+    "description": "A massive siege engine used for hurling large projectiles.",
+    "age": "1200-1600 CE"
+  },
+  {
+    "name": "Catapult",
+    "description": "A smaller siege engine used for hurling rocks and other projectiles.",
+    "age": "1000-1400 CE"
+  },
+  {
+    "name": "Battering Ram",
+    "description": "A heavy wooden frame covered with metal or leather used to break down walls.",
+    "age": "900-1400 CE"
+  }
+]
