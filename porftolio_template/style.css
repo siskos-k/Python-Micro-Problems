@@ -1,0 +1,99 @@
+/* Light Mode (Default) */
+body {
+    font-family: sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark grey text */
+    transition:
+        background-color 0.3s,
+        color 0.3s;
+}
+
+.accent {
+    color: #007bff; /* Blue accent color */
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #333333; /* Dark grey background */
+    color: #ffffff; /* White text */
+}
+
+#about,
+#projects {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Project Styling */
+.project {
+    background-color: #f5f5f5; /* Light grey background for projects */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth transition for dark mode */
+}
+
+body.dark-mode .project {
+    background-color: #444444; /* Darker grey in dark mode */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+nav {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    padding: 15px;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: inherit; /* Inherit from parent */
+    transition: color 0.3s;
+}
+
+body.dark-mode nav a {
+    color: #f5f5f5;
+}
+
+nav a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+#reviews {
+    padding: 20px;
+}
+
+.review {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+body.dark-mode .review {
+    background-color: #444444;
+}
+
+.review h3 {
+    margin-bottom: 5px;
+}
+
+.rating {
+    color: #ffc107; /* Gold color for stars */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
