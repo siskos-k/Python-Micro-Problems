@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Movie Suggestions - Main</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Favorites</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <div class="search-container">
+                <input
+                    type="text"
+                    id="search-bar"
+                    placeholder="Search for movies..."
+                />
+            </div>
+        </nav>
+
+        <main>
+            <section id="trending">
+                <h2>Trending Now</h2>
+                <div id="trending-movies"></div>
+            </section>
+
+            <section id="for-you">
+                <h2>For You</h2>
+                <div id="recommended-movies"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Movie Suggestions</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
