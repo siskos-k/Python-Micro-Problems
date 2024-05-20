@@ -1,0 +1,77 @@
+body {
+    background-color: #222; /* Black */
+    color: #f0f0f0; /* Light grey */
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #d4af37; /* Gold */
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #222;
+    margin: 15% auto;
+
+    padding: 20px;
+    border: 1px solid #d4af37;
+    width: 30%;
+    text-align: center;
+}
+
+.gender-buttons button {
+    background-color: #d4af37;
+    color: #222;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.gender-buttons button i {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.body-type-buttons button {
+    background-color: #222; /* Black background */
+    border: 2px solid #d4af37; /* Gold border */
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.body-type-buttons button img {
+    max-width: 100px; /* Adjust as needed */
+    height: auto;
+}

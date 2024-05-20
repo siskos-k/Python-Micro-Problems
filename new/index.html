@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Fitness App</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to Your Fitness Journey!</h1>
+            <p>This is your personalized fitness app. Let's get started!</p>
+            <button id="getStartedBtn">Get Started</button>
+        </div>
+
+        <div id="genderModal" class="modal">
+            <div class="modal-content">
+                <h2>Select Gender</h2>
+                <div class="gender-buttons">
+                    <button id="maleBtn" onclick="redirectToPage('male.html')">
+                        <i class="fas fa-mars"></i> Male
+                    </button>
+                    <button
+                        id="femaleBtn"
+                        onclick="redirectToPage('female.html')"
+                    >
+                        <i class="fas fa-venus"></i> Female
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
+    </body>
+</html>
