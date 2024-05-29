@@ -1,0 +1,68 @@
+body {
+    /* Green background with vertical white lines */
+    background: linear-gradient(to right, #005a11 95%, white 5%),
+        linear-gradient(white 5px, #005a11 5px);
+    background-size:
+        100% 30px,
+        100% 100%;
+    background-position:
+        0 0,
+        0 30px;
+    /* Add more football pitch-like styles */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    height: 100vh;
+}
+
+#question,
+#result {
+    /* Center the question and result div */
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#question {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.8; /* Increase line-height for better readability */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: transparent; /* Make buttons transparent */
+    border: 2px solid white;
+    color: white;
+    font-size: 1em; /* Adjust font size */
+    cursor: pointer;
+    outline: none; /* Remove outline */
+    text-transform: uppercase; /* Capitalize buttons */
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Add a slight hover effect */
+}
+
+#yesButton {
+    border-radius: 50px 0 0 50px; /* Rounded left corner */
+}
+
+#noButton {
+    border-radius: 0 50px 50px 0; /* Rounded right corner */
+}
+
+#result {
+    font-size: 2em;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.green-bg {
+    /* Background color for the "GOAT" section  */
+    background-color: #005a11;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 5px;
+}

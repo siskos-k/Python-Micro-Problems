@@ -1,0 +1,11 @@
+#news-container {
+    display: grid; /* Or flexbox */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.news-item {
+    /* Style for each individual news item */
+    border: 1px solid #ddd;
+    padding: 15px;
+}
